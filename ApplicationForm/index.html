@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Application Form</h1>
+
+      <fieldset id="presonalDetails">
+        <legend>Presonal Details</legend>
+
+        <div id="presonalDetailsFeilds">
+          <label for="ApplicantName">Applicant's Full Name</label>
+          <div>
+            <select>
+              <option value="">-Select-</option>
+              <option value="Mr">Mr</option>
+              <option value="Miss">Miss</option>
+              <option value="Mrs">Mrs</option>
+            </select>
+            <input type="text" name="ApplicantName" id="ApplicantName" />
+          </div>
+          <label for="careOf">Care Of</label>
+          <div>
+            <span>Parent</span>
+            <input type="radio" name="careOf" id="careOf1" value="Parent" />
+            <span>Guardian</span>
+            <input type="radio" name="careOf" id="careOf2" value="Guardian" />
+          </div>
+          <label for="FathersName">Fathers's Name</label>
+          <div>
+            <select>
+              <option value="">-Select-</option>
+              <option value="Mr">Mr</option>
+              <option value="Late">Late</option>
+            </select>
+            <input type="text" name="FathersName" id="FathersName" />
+          </div>
+          <label for="MothersName">Mother's Name</label>
+          <div>
+            <select>
+              <option value="">-Select-</option>
+              <option value="Mrs">Mr</option>
+              <option value="Late">Late</option>
+            </select>
+            <input type="text" name="MothersName" id="MothersName" />
+          </div>
+          <label for="gender">Gender</label>
+          <div>
+            <span>Male</span>
+            <input type="radio" name="gender" id="genderMale" value="Male" />
+            <span>Female</span>
+            <input type="radio" name="gender" id="genderFemale" value="Female" />
+            <span>Others</span>
+            <input type="radio" name="gender" id="genderOthers" value="Others" />
+          </div>
+          <label for="dob">Date of Birth</label>
+          <input type="date" name="dob" id="dob">
+          <label for="maritalStatus">Marital Status</label>
+          <select>
+            <option value="">-Select-</option>
+            <option value="Single">Single</option>
+            <option value="Married">Married</option>
+            <option value="Divorced">Divorced</option>
+            <option value="Widow">Widow</option>
+          </select>
+          <label for="category">Category</label>
+          <select>
+            <option value="">-Select-</option>
+            <option value="GEN">GEN</option>
+            <option value="OBC">OBC</option>
+            <option value="SC">SC</option>
+            <option value="ST">ST</option>
+            <option value="Others">Others</option>
+          </select>
+          <label for="handicapped">Handicapped</label>
+          <div>
+            <span>Male</span>
+            <input type="radio" name="handicapped" id="handicappedYes" value="Yes" />
+            <span>Female</span>
+            <input type="radio" name="handicapped" id="handicappedNo" value="No" />
+          </div>
+          <label for="exService">Ex - Service Man</label>
+          <div>
+            <span>Male</span>
+            <input type="radio" name="exService" id="exServiceYes" value="Yes" />
+            <span>Female</span>
+            <input type="radio" name="exService" id="exServiceNo" value="No" />
+          </div>
+          <label for="EWS">EWS</label>
+          <div>
+            <span>Male</span>
+            <input type="radio" name="EWS" id="EWSYes" value="Yes" />
+            <span>Female</span>
+            <input type="radio" name="EWS" id="EWSNo" value="No" />
+          </div>
+          <label for="religion">Religion</label>
+          <select>
+            <option value="">-Select-</option>
+            <option value="hindu">Hindu</option>
+            <option value="muslim">Muslim</option>
+            <option value="buddist">Buddist</option>
+            <option value="christan">Christan</option>
+            <option value="sikh">Sikh</option>
+            <option value="jain">Jain</option>
+            <option value="Others">Others</option>
+          </select>
+          <!-- endof formdiv -->
+        </div>
+      </fieldset>
+    </div>
+
+
+   
+  </body>
+</html>

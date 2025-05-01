@@ -1,0 +1,50 @@
+.parent{
+    background-color:aquamarine;
+    border: 1px solid #000;
+    display: flex;
+    height: 500px;
+    justify-content:space-evenly;
+    align-items:end
+}
+
+
+.child{
+    background-color: burlywood;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+}
+
+#formParent{
+    display: flex;
+    gap: 50px;
+}
+#formlabels{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+#formfeilds{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+span{
+    background-color: blueviolet;
+    display: block;
+}
+
+
+#tesingGrid{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 20px;
+}
+
+fieldset{
+    border: 1px solid #000;
+}

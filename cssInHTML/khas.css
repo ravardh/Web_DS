@@ -1,0 +1,49 @@
+* {
+  color: red;
+}
+
+h1 {
+  color: blue;
+}
+
+.xyz {
+  color: chartreuse;
+}
+
+.abc {
+  color: aquamarine;
+}
+
+#def {
+  color: blueviolet;
+  background-color: bisque;
+  font-family: cursive;
+  font-size: xx-large;
+  font-weight: 900;
+  font-style: italic;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+#a {
+  border: 1px solid violet;
+  text-align: center;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+#b {
+  border: 1px solid orange;
+  padding: 15px 25px 50px 75px;
+}
+
+#x {
+  border: 1px solid black;
+  background-color: blue;
+  display: flex;
+  gap: 50%;
+}
+.z {
+  color: aliceblue;
+}

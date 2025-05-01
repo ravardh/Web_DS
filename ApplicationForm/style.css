@@ -1,0 +1,21 @@
+#presonalDetailsFeilds {
+  display: grid;
+  grid-template-columns: 250px 400px 250px 400px;
+  gap: 10px;
+}
+
+
+select,input{
+    max-width: 240px;
+}
+
+#presonalDetails{
+  width: 1400px;
+  margin: auto;
+  box-shadow: 2px 2px 2px 2px rgb(132, 129, 129);
+}
+
+span{
+  color: red;
+  text-shadow: 0.5px 0.5px 0.5px green;
+}
