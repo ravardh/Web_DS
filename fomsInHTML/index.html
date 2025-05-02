@@ -4,48 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>login form</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <section>
       <h3 align="center">Login Page</h3>
-      <div>
+      <div class="formFeild">
         <label for="username">Username:</label>
         <input
           type="text"
           name="username"
-          id=""
+          id="username"
           placeholder="Enter your username"
         />
-      </div>
-      <div>
+
         <label for="password">Password:</label>
         <input
           type="password"
           name="password"
-          id=""
+          id="password"
           placeholder="Enter your password"
         />
-      </div>
-      <button>Login</button>
-      <button>Cancel</button>
-      <div>
+
         <label for="qualification">Qualification</label>
-        <select name="qualification" id="">
-          <option value="">Seelect Qualification</option>
-          <option value="">10th</option>
-          <option value="">11th</option>
-          <option value="">12th</option>
-          <option value="">13th</option>
-          <option value="">14th</option>
-          <option value="">15th</option>
-          <option value="">16th</option>
+        <select name="qualification" id="qualification">
+          <option value="">Select Qualification</option>
+          <option value="10">Matriculation</option>
+          <option value="12">Intermediate</option>
+          <option value="UG">Graduation</option>
+          <option value="PG">Post Graduation</option>
+          <option value="PhD">Doctrate</option>
         </select>
+
+        <label for="address">Address:</label>
+        <textarea name="address" id="address"></textarea>
       </div>
 
-      <div>
-        <label for="address">Address:</label>
-        <textarea name="address" id=""></textarea>
-      </div>
+      <button onclick="login()">Login</button>
+      <button>Cancel</button>
     </section>
+
+    <script src="script.js"></script>
   </body>
 </html>

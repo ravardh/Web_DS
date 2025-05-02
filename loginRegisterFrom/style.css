@@ -38,7 +38,22 @@ button{
     border: none;
 }
 
+button:hover {
+    background-color: red;
+}
 
+button:active{
+    background-color: green;
+}
+
+button:disabled{
+    background-color: darkgray;
+}
+
+a:visited{
+    text-decoration: none;
+    color: red;
+}
 .icon{
     display: inline-block;
     width: 25px;
