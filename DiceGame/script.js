@@ -8,9 +8,8 @@ function startGame() {
   document.getElementById("player1NameScore").innerText = p1;
   document.getElementById("player2NameScore").innerText = p2;
 
-  document.getElementById('start').disabled = true;
-  document.getElementById('reset').disabled = false;
-
+  document.getElementById("start").disabled = true;
+  document.getElementById("reset").disabled = false;
 }
 
 function rollDice1() {
@@ -23,4 +22,16 @@ function rollDice2() {
 
 function resetGame() {
   console.log("Reseting Game");
+}
+
+document.getElementById("Player1Name").addEventListener("change", checkInput);
+document.getElementById("Player2Name").addEventListener("change", checkInput);
+
+function checkInput() {
+  const p1 = document.getElementById("Player1Name").value.trim();
+  const p2 = document.getElementById("Player2Name").value.trim();
+
+  if (p1.length > 2 && p2.length > 2) {
+    document.getElementById("startGame").disabled = false;
+  }
 }
